@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.5"
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^22.13.5",
+    "typescript": "^5.4.5"
   },
   "scripts": {}
 }

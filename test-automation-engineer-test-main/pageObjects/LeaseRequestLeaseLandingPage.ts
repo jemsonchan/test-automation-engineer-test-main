@@ -5,8 +5,7 @@ import { BasePage } from "./BasePage.js";
 export class LeaseRequestLeaseLandingPage extends BasePage {
   constructor(page: Page) {
     super(page);
-    this.url =
-      "https://beedirect-git-ta-test-automation-engineer.preview.beequip.com";
+    this.url = "/";
   }
 
   async visit() {

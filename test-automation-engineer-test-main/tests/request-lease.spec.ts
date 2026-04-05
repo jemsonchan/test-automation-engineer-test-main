@@ -25,10 +25,12 @@ test("Calculate the monthly payment for a new object", async ({ page }) => {
     purchasePrice: 110000,
     leaseCalculatorOption: LeaseCalculatorOptions.CALCULATE_MONTHLY_AMOUNT,
     doYouKnowTheModel: false,
-    constructionYear: 2021,
+    constructionYear: new Date().getFullYear(),
     expectedLeadTimeline: ExpectedLeadTimelines.SEVENTY_TWO_HOURS,
     companyName: "Beequip B.V.",
     kvk: 63204258,
+    downPaymentPercentage: 0,
+    expectedMonthlyPayment: 0,
   });
 
   await expect(
