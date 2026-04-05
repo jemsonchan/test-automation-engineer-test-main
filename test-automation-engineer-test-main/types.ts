@@ -14,4 +14,6 @@ export interface ILeaseRequestDetailsTestData extends IEquipmentDetailsTestData 
   kvk: number;
   doYouKnowTheModel: boolean;
   leaseCalculatorOption: LeaseCalculatorOptions;
+  downPaymentPercentage: number;
+  expectedMonthlyPayment: number;
 }
